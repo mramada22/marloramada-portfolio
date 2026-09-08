@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio Production Samples — Marlo</title>
+  <meta name="description" content="Audio production samples by Marlo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="index.html">Marlo</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="audio-production.html">Audio Production</a></li>
+          <li><a href="sound-design.html">Sound Design</a></li>
+          <li><a href="audio-software.html">Audio Software</a></li>
+          <li><a href="pure-data.html">Pure Data Patches</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro wrap">
+      <span class="eyebrow">Audio Production</span>
+      <h1>Audio Production Samples</h1>
+      <p>
+        A selection of tracks and mixes I've produced — original music,
+        remixes, and mix/master work. Each card below links out to the
+        full track.
+      </p>
+    </section>
+
+    <section class="wrap">
+      <div class="project-grid">
+
+        <!-- ============================================================
+             EXAMPLE PROJECT CARD — copy this whole <div class="card">
+             block to add a new project. Fill in the title, meta line,
+             description, tags, an optional audio player, and links.
+             Delete the audio tag entirely if you don't have a hosted
+             file — use the embed <iframe> block instead for
+             SoundCloud/Spotify/Bandcamp players.
+             ============================================================ -->
+        <div class="card">
+          <h3>Track / Project Title</h3>
+          <div class="meta">2026 · Genre or role (e.g. Producer, Mix Engineer)</div>
+          <p class="desc">
+            One or two sentences about the project: what it is, what you
+            did, and any tools or gear worth mentioning.
+          </p>
+          <div class="tags">
+            <span>Mixing</span>
+            <span>Original</span>
+          </div>
+          <!-- Option A: direct audio file
+          <audio controls src="media/your-track.mp3"></audio>
+          -->
+          <!-- Option B: embedded player (SoundCloud/Spotify/Bandcamp iframe)
+          <div class="embed">
+            <iframe src="https://w.soundcloud.com/player/?url=YOUR_TRACK_URL" title="Track player" allow="autoplay"></iframe>
+          </div>
+          -->
+          <div class="links">
+            <a href="#">Listen ↗</a>
+          </div>
+        </div>
+        <!-- ========================= END EXAMPLE CARD ========================= -->
+
+        <div class="card placeholder">
+          <p>
+            More production samples coming soon. Copy the example card
+            above (see the HTML comments) to add your next track here.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Marlo</span>
+      <span><a href="mailto:you@example.com">you@example.com</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

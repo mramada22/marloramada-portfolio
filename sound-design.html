@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sound Design Work — Marlo</title>
+  <meta name="description" content="Sound design work by Marlo for games, film, and interactive media." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="index.html">Marlo</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="audio-production.html">Audio Production</a></li>
+          <li><a href="sound-design.html">Sound Design</a></li>
+          <li><a href="audio-software.html">Audio Software</a></li>
+          <li><a href="pure-data.html">Pure Data Patches</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro wrap">
+      <span class="eyebrow">Sound Design</span>
+      <h1>Sound Design Work</h1>
+      <p>
+        Sound design for games, film, and interactive media — foley,
+        ambience, UI sound, and full sound-for-picture passes.
+      </p>
+    </section>
+
+    <section class="wrap">
+      <div class="project-grid">
+
+        <!-- ============================================================
+             EXAMPLE PROJECT CARD — copy this whole <div class="card">
+             block for each new sound design project. A video embed
+             works well here (YouTube/Vimeo showreel), or swap in an
+             <audio> element for an audio-only demo reel.
+             ============================================================ -->
+        <div class="card">
+          <h3>Project Title</h3>
+          <div class="meta">2026 · Game / Film / Interactive — Sound Designer</div>
+          <p class="desc">
+            What the project is, your role, and what kind of sound work
+            you did (foley, ambience, UI, dialogue editing, etc).
+          </p>
+          <div class="tags">
+            <span>Foley</span>
+            <span>Ambience</span>
+          </div>
+          <div class="embed">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Project showreel" allowfullscreen></iframe>
+          </div>
+          <div class="links">
+            <a href="#">Watch ↗</a>
+          </div>
+        </div>
+        <!-- ========================= END EXAMPLE CARD ========================= -->
+
+        <div class="card placeholder">
+          <p>
+            More sound design work coming soon. Copy the example card
+            above to add your next project here.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Marlo</span>
+      <span><a href="mailto:you@example.com">you@example.com</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

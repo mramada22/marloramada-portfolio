@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pure Data Patches — Marlo</title>
+  <meta name="description" content="Demonstrations of Pure Data patches by Marlo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="index.html">Marlo</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="audio-production.html">Audio Production</a></li>
+          <li><a href="sound-design.html">Sound Design</a></li>
+          <li><a href="audio-software.html">Audio Software</a></li>
+          <li><a href="pure-data.html">Pure Data Patches</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro wrap">
+      <span class="eyebrow">Pure Data</span>
+      <h1>Pure Data Patches</h1>
+      <p>
+        Demonstrations of patches built in Pure Data — synthesis,
+        signal processing, and generative/interactive sound
+        experiments. Videos walk through how each patch works; source
+        patches are linked where available.
+      </p>
+    </section>
+
+    <section class="wrap">
+      <div class="project-grid">
+
+        <!-- ============================================================
+             EXAMPLE PROJECT CARD — copy this whole <div class="card">
+             block for each new patch. Use a short screen-recording
+             (YouTube/Vimeo unlisted works well) to show the patch in
+             action, and link the .pd file if you're sharing source.
+             ============================================================ -->
+        <div class="card">
+          <h3>Patch Name</h3>
+          <div class="meta">2026 · Synthesis / Sequencing / Effects, etc.</div>
+          <p class="desc">
+            What the patch does and what it demonstrates — e.g. a
+            granular synthesis engine, a generative sequencer, a custom
+            effect chain.
+          </p>
+          <div class="tags">
+            <span>Synthesis</span>
+            <span>Pure Data</span>
+          </div>
+          <div class="embed">
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="Patch demonstration" allowfullscreen></iframe>
+          </div>
+          <div class="links">
+            <a href="#">Watch demo ↗</a>
+            <a href="patches/your-patch.pd">Download .pd ↗</a>
+          </div>
+        </div>
+        <!-- ========================= END EXAMPLE CARD ========================= -->
+
+        <div class="card placeholder">
+          <p>
+            More patch demonstrations coming soon. Copy the example
+            card above to add your next one here.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Marlo</span>
+      <span><a href="mailto:you@example.com">you@example.com</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>

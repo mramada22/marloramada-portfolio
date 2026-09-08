@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Audio Software Engineering Projects — Marlo</title>
+  <meta name="description" content="Audio software engineering projects by Marlo — tools, plugins, and applications." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="index.html">Marlo</a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><span></span></button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="audio-production.html">Audio Production</a></li>
+          <li><a href="sound-design.html">Sound Design</a></li>
+          <li><a href="audio-software.html">Audio Software</a></li>
+          <li><a href="pure-data.html">Pure Data Patches</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro wrap">
+      <span class="eyebrow">Audio Software Engineering</span>
+      <h1>Audio Software Engineering Projects</h1>
+      <p>
+        Tools, plugins, and applications I've built for audio — from
+        DSP experiments to full applications. Most link out to source
+        code on GitHub.
+      </p>
+    </section>
+
+    <section class="wrap">
+      <div class="project-grid">
+
+        <!-- ============================================================
+             EXAMPLE PROJECT CARD — copy this whole <div class="card">
+             block for each new software project. The "links" row is
+             built for a GitHub repo + optional live demo/docs link.
+             ============================================================ -->
+        <div class="card">
+          <h3>Project Name</h3>
+          <div class="meta">2026 · VST Plugin / CLI Tool / Library, etc.</div>
+          <p class="desc">
+            What the tool does, what problem it solves, and the stack
+            (e.g. C++/JUCE, Rust, Python, Web Audio API).
+          </p>
+          <div class="tags">
+            <span>C++</span>
+            <span>DSP</span>
+          </div>
+          <div class="links">
+            <a href="https://github.com/your-username/your-repo">GitHub ↗</a>
+            <a href="#">Live demo ↗</a>
+          </div>
+        </div>
+        <!-- ========================= END EXAMPLE CARD ========================= -->
+
+        <div class="card placeholder">
+          <p>
+            More software projects coming soon. Copy the example card
+            above to add your next one here.
+          </p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; <span id="year"></span> Marlo</span>
+      <span><a href="mailto:you@example.com">you@example.com</a></span>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
